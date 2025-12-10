@@ -1,0 +1,13 @@
+{
+  "tracks": [
+    {
+      "id": "example-01",
+      "title": "Moonlit Walk",
+      "artist": "Nomdumiso",
+      "mood": ["calm", "ambient"],
+      "duration": 192,
+      "cover": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&q=60",
+      "src": "https://cdn.simple-mock/audio/moonlit-walk.mp3"
+    }
+  ]
+}

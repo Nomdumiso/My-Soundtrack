@@ -1,0 +1,24 @@
+:root{
+  --bg:#f6f7f8;
+  --card:#ffffff;
+  --muted:#9aa3a6;
+  --accent:#b8d8d8;
+  --text:#222222;
+}
+html,body,#__next{height:100%;}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text);}
+.app-shell{min-height:100%;display:flex;align-items:center;justify-content:center;padding:32px}
+.container{width:100%;max-width:980px;background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(30,30,30,0.08);padding:28px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.title{font-size:20px;font-weight:600}
+.layout{display:grid;grid-template-columns:380px 1fr;gap:20px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,250,0.9));border-radius:10px;padding:16px}
+.artwork{width:100%;height:360px;border-radius:8px;object-fit:cover;background:#f2f2f2;display:block}
+.track-info{margin-top:12px}
+.controls{display:flex;gap:10px;align-items:center;margin-top:12px}
+.btn{background:var(--accent);border:none;padding:10px 14px;border-radius:10px;cursor:pointer}
+.progress{height:6px;background:#eee;border-radius:6px;margin-top:12px;overflow:hidden}
+.progress > i{display:block;height:100%;background:linear-gradient(90deg,#cfe8e8,#b8d8d8);width:0%}
+.list{max-height:560px;overflow:auto}
+.filter-row{display:flex;gap:8px;margin-bottom:12px}
+.mood-pill{padding:6px 10px;border-radius:999px;background:#f4f6f6;font-size:13px;cursor:pointer}
